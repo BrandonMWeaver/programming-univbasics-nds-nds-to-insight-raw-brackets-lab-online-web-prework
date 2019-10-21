@@ -6,7 +6,9 @@ def directors_totals(nds)
   
   i = 0
   while i < directors_database.size do
-    
+    total = 0
+    puts directors_database[i][:movies][i]
+    i += 1
   end
   
   return result
