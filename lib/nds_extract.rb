@@ -5,7 +5,7 @@ def directors_totals(nds)
   result = {}
   
   i = 0
-  while i < directors_database.size do
+  while i < directors_database[0].size do
     total = 0
     name = directors_database[i][:name]
     
