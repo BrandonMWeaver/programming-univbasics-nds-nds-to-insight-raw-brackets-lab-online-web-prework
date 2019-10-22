@@ -16,7 +16,7 @@ def directors_totals(nds)
     end
     
     i += 1
-    result[i] = { name => total }
+    result[i] = name => total
   end
   
   return result
