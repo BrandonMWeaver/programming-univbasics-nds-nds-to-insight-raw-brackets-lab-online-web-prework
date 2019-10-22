@@ -7,7 +7,7 @@ def directors_totals(nds)
   i = 0
   while i < directors_database.size do
     total = 0
-    puts directors_database[i][:name]
+    puts directors_database[:name]
     i += 1
   end
   
