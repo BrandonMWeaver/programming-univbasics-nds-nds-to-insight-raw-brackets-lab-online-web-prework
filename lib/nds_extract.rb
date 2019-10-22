@@ -17,7 +17,7 @@ def directors_totals(nds)
     end
     puts total
     i += 1
-    
+    result[name] = total
   end
   
   return result
