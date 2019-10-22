@@ -5,7 +5,7 @@ def directors_totals(nds)
   result = {}
   pp directors_database
   i = 0
-  while i < directors_database.size do
+  while i < directors_database[0].size do
     total = 0
     
     i += 1
